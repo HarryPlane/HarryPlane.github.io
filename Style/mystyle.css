@@ -17,6 +17,7 @@ h1 {
 h2 {
     color: white;
     font-size: 150%;
+    text-align:center;
 }
 .title{
     text-align: center;
@@ -71,14 +72,17 @@ html, body {
 #image_header{
     text-align: right;
 }
-img { 
+#fish{
     text-align: center;
     width: 30%;
     margin: auto;
-    /*padding: 0% 35%;*/
-}  
+}
+#w3c{
+    width: 10%;
+    float: right;
+}
 video {
-    max-width: 100;
+    max-width: 100%;
     object-fit: contain;
 }
 ul {
@@ -125,4 +129,14 @@ article {
       left: 0;
       width: 100%;
     }
+}
+footer {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+  }
+
+#copyright{
+    float: left;
 }
