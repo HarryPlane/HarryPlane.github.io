@@ -4,57 +4,62 @@
     border: 0;
 }
 
-section {
+article {
     color : white;
-    text-align: right;
 }
 
 h1 {
-	color : white;
+	color : black;
     font-size: 250%;
     text-align: center;
 }
 h2 {
-    color: white;
+    color: black;
     font-size: 150%;
     text-align:center;
 }
-.title{
+
+.title {
     text-align: center;
 }
+
 p {
 	font-family: sans-serif;
     font-size: 100%;
+    font-weight: bold;
     text-align: center;
     position: relative;
-    color : white;
-    padding: 0.75em 4em;
+    color : black;
+    padding: 0.75em 0.5em;
 }
 
 html, body {
     width: 100%;
     height: 100%;
-    /*background-image: url("portsmouth_image_1.jpg");*/
 }
-#img1, #img2, #img3{
+
+#img1, #img2, #img3 {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /*opacity: 0.7;*/
     min-height: 100%;
-    padding: 2.188em 4.375em;
+    padding: 1.5em 1.5em;
 }
+
 #img1 {
     background-image: url("portsmouth_image_1.jpg");
 }
+
 #img2 {
     background-image: url("portsmouth_image_2.jpg");
 }
+
 #img3 {
     background-image: url("portsmouth_image_3.jpg");
 }
+
 #img4 {
     background-image: url("portsmouth_image_4.jpg");
     text-align: center;
@@ -65,22 +70,32 @@ html, body {
     background-attachment: fixed;
     min-height: 100%;
 }
-.image_section{
+
+.text-container {
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+.image_section {
     background-color: #333;
     text-align: center;
 }
-#image_header{
-    text-align: right;
-}
-#fish{
+
+#image_header {
     text-align: center;
+}
+
+#fish {
     width: 30%;
     margin: auto;
+    display: block;
 }
-#w3c{
-    width: 10%;
+
+#w3c {  
+    max-width: 10%;
     float: right;
 }
+
 video {
     max-width: 100%;
     object-fit: contain;
@@ -110,13 +125,12 @@ nav a:hover {
     background-color: black;
 }
 
-article {
-    /*background-color: black;*/
-}
-
 @media screen and (max-width: 30.0em) {
     ul li {
       float: none;
+    }
+    ul li a {
+        padding: 0.75em;
     }
 }
 
@@ -127,7 +141,6 @@ article {
     }
     p {
       left: 0;
-      width: 100%;
     }
 }
 footer {
@@ -135,8 +148,9 @@ footer {
     width: 100%;
     height: auto;
     background-color: #333;
-  }
+}
 
-#copyright{
+#UP {
+    color: black;
     float: left;
 }
