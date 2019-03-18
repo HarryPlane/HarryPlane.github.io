@@ -89,6 +89,7 @@ html, body {
     width: 30%;
     margin: auto;
     display: block;
+    padding: 15%;
 }
 
 #w3c {  
@@ -126,31 +127,38 @@ nav a:hover {
 }
 
 @media screen and (max-width: 30.0em) {
+    h1 {
+        left: 0;
+        width: 100%;
+    }
+
+    p {
+      left: 0;
+    }
+
     ul li {
       float: none;
     }
+
     ul li a {
         padding: 0.75em;
     }
 }
 
-@media screen and (max-width: 30.0em) {
-    h1 {
-        left: 0;
-        width: 100%;
-    }
-    p {
-      left: 0;
-    }
-}
 footer {
     display: inline-block;
     width: 100%;
     height: auto;
     background-color: #333;
+    position: absolute;
 }
 
 #UP {
     color: black;
     float: left;
+    padding: 0.5em;
+}
+
+#one {
+    text-shadow: 0 0 0.5em white;
 }
