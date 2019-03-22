@@ -9,18 +9,21 @@ article {
 }
 
 h1 {
-	color : black;
     font-size: 250%;
-    text-align: center;
 }
+
 h2 {
-    color: black;
-    font-size: 150%;
-    text-align:center;
+    font-size: 200%;
+}
+
+a{
+    text-decoration: none;
 }
 
 .title {
     text-align: center;
+    color:black;
+
 }
 
 p {
@@ -30,7 +33,7 @@ p {
     text-align: center;
     position: relative;
     color : black;
-    padding: 0.75em 0.5em;
+    padding: 0.75em 5em;
 }
 
 html, body {
@@ -38,7 +41,7 @@ html, body {
     height: 100%;
 }
 
-#img1, #img2, #img3 {
+.bgImage {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,26 +66,11 @@ html, body {
 #img4 {
     background-image: url("portsmouth_image_4.jpg");
     text-align: center;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100%;
 }
 
 .text-container {
     background-color: #ffffff;
-    opacity: 0.6;
-}
-
-.image_section {
-    background-color: #333;
-    text-align: center;
-}
-
-#image_header {
-    text-align: center;
+    opacity: 0.7;
 }
 
 #fish {
@@ -90,11 +78,6 @@ html, body {
     margin: auto;
     display: block;
     padding: 5%;
-}
-
-#w3c {  
-    max-width: 10%;
-    float: right;
 }
 
 video {
@@ -133,11 +116,12 @@ nav a:hover {
     }
 
     p {
-      left: 0;
+        left: 0;
+        padding: 0.75em 2em;
     }
 
-    ul li {
-      float: none;
+    nav ul li {
+        float: none;
     }
 
     ul li a {
@@ -156,9 +140,57 @@ footer {
 #UP {
     color: black;
     float: left;
-    padding: 0.5em;
+    padding: 1em;
+}
+
+#w3c {  
+    max-width: 5%;
+    float: right;
+    padding: 1em;
 }
 
 #one {
     text-shadow: 0 0 0.5em white;
+}
+
+.htmlImages{
+    margin: auto;
+    display: block;
+    padding: 5%;
+}
+
+#darth_vader{
+    width: 30%;
+}
+
+#week_7_code1{
+    width: 70%;
+}
+
+#week_7_code2{
+    width: 35%;
+}
+
+#week_7_code3{
+    width: 30%;
+}
+
+#week_9_mvc{
+    width: 50%;
+}
+
+#week_10fc{
+    width: 50%;
+}
+
+#week_12_code{
+    width: 40%;
+}
+
+#week_13_code{
+    width: 50%;
+}
+
+#week_14_code{
+    width: 50%;
 }
